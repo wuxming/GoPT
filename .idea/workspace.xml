@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55d759b4-2bb8-40bb-b175-99153d07aaf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="55d759b4-2bb8-40bb-b175-99153d07aaf2" name="Default Changelist" comment="&quot;&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -74,8 +73,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="&quot;&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;&quot;" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -94,6 +105,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1155" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1625037478647" />
+    <state x="-1828" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1625053302442">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1828" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1625053302442" />
     <state x="-1234" y="211" key="FileChooserDialogImpl" timestamp="1625052472189">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -115,19 +130,35 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1178" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621850763272" />
+    <state x="-1392" y="284" key="MultipleFileMergeDialog" timestamp="1625052857497">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1392" y="284" key="MultipleFileMergeDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1625052857497" />
+    <state x="-1223" y="221" key="RollbackChangesDialog" timestamp="1625053080365">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1223" y="221" key="RollbackChangesDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1625053080365" />
     <state x="-1641" y="215" width="998" height="708" key="SettingsEditor" timestamp="1625048552474">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1641" y="215" width="998" height="708" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1625048552474" />
     <state x="-996" y="50" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1625015981275" />
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1621855956669" />
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1625052183513">
+    <state x="-1114" y="434" key="VCS.ChangelistChooser" timestamp="1625053240815">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1625052183513" />
-    <state x="-1157" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1625052024406">
+    <state x="-1114" y="434" key="VCS.ChangelistChooser/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1625053240815" />
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1625052748726">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1157" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1625052024406" />
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1625052748726" />
+    <state x="-1157" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1625053302310">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1157" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1625053302310" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1625053089792">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1625053089792" />
   </component>
 </project>
