@@ -2,63 +2,46 @@ package service
 
 import (
 	"context"
-	"fmt"
 	"gin1/config"
+	"gin1/helper"
 	"gin1/models"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
-	"log"
-	"net/http"
 )
 
 var collection =config.Coll().Collection("libraries")//连接到哪个表
-func Find()([]*models.Test,int)  {
-	cur, err :=collection.Find(context.Background(),bson.M{})//查询所有 M map没有顺序 Binary JSON
+func Find()map[string]interface{}  {
+	cur, err :=collection.Find(context.TODO(),bson.M{})//查询所有 M map没有顺序 Binary JSON
 	if err != nil {
-		log.Fatal(err)
+		return helper.ErrorMess(err.Error(),nil)
 	}
-	if err:=cur.Err();err!=nil {
-		log.Fatal(err)
-	}
-	var all  []*models.Test
-	err = cur.All(context.Background(),&all)
+	var books  []*models.Test
+	err = cur.All(context.TODO(),&books)
 	if err != nil {
-		log.Fatal(err)
+		return helper.ErrorMess(err.Error(),nil)
 	}
-	cur.Close(context.Background())
-	code := http.StatusOK
-	fmt.Println(all)
-	return all,code
+	return helper.SuccessMess("All book",books)
 }
-func Create(s1 models.Test) int  {
-	var code int = http.StatusOK
+func Create(s1 models.Test) map[string]interface{}  {
 	createResult,err :=collection.InsertOne(context.Background(),s1)
-	fmt.Println(createResult)
 	if err != nil {
-		log.Fatal(err)//出错程序停止
-		code = http.StatusInternalServerError
+		return helper.ErrorMess(err.Error(),nil)
 	}
-	return  code
+	return   helper.SuccessMess("创建成功",createResult)
 }
-func Update(s1 models.Test)int{
-	fmt.Println(s1.Id)
+func Update(s1 models.Test)map[string]interface{}{//根据id更新
 	filter := bson.M{"_id":s1.Id} //查找的对象
 	update := bson.M{"$set":s1}
 	updateResult,err :=collection.UpdateOne(context.Background(),filter,update)
-	fmt.Println(updateResult)
 	if err != nil {
-		log.Fatal(err)
+		return helper.ErrorMess(err.Error(),nil)
 	}
-	return http.StatusOK
+	return helper.SuccessMess("更新成功",updateResult)
 }
-func Delete(id primitive.ObjectID)int{
-	code :=http.StatusOK
-	fmt.Println(id)
-	deleteResult,err :=collection.DeleteOne(context.Background(),bson.M{"_id":id})
+func Delete(_id primitive.ObjectID)map[string]interface{}{
+	deleteResult,err :=collection.DeleteOne(context.Background(),bson.M{"_id":_id})
 	if err!=nil {
-		code = http.StatusInternalServerError
-		log.Fatal(err)
+		return helper.ErrorMess(err.Error(),nil)
 	}
-	fmt.Println(deleteResult)
-	return code
+	 return helper.SuccessMess("删除成功",deleteResult)
 }

@@ -1,0 +1,14 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>��# go\r\n\r\nojfgkdsd\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(revision 15e52cd4fc70530d9751de0bf3753fc779871d49)
++++ README.md	(date 1625053778398)
+@@ -1,3 +1,3 @@
+ ��# go
+ 
+-ojfgkdsd
++goland上
