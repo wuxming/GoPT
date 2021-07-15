@@ -11,10 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55d759b4-2bb8-40bb-b175-99153d07aaf2" name="Default Changelist" comment="&quot;&quot;">
-      <change afterPath="$PROJECT_DIR$/helper/response.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_30_19_30_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_30_19_30__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_30_19_43_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_30_19_43__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_30_19_49_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_30_19_49__Default_Changelist_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/response.go" beforeDir="false" afterPath="$PROJECT_DIR$/helper/response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/route1.go" beforeDir="false" afterPath="$PROJECT_DIR$/routes/route1.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/runner-build.exe" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/runner-build.exe" afterDir="false" />
     </list>
@@ -49,12 +59,13 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="DatabaseDriversLRU" value="mongo" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunManager" selected="Go Build.go build gin1/routes">
     <configuration name="go build gin1/routes" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -121,6 +132,11 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                </TextFilterSettings>
+              </option>
             </State>
           </value>
         </entry>
@@ -137,10 +153,11 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="150" y="61" width="1089" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621847866871">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="188" y="77" width="1089" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625970755726">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="150" y="61" width="1089" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1621847866871" />
+    <state x="188" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1625970755726" />
     <state x="0" y="426" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624956476554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -187,12 +204,13 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1223" y="221" key="RollbackChangesDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1625053080365" />
-    <state x="-1641" y="215" width="998" height="708" key="SettingsEditor" timestamp="1625048552474">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="2143" y="125" width="914" height="707" key="SettingsEditor" timestamp="1626328224124">
+      <screen x="1920" y="0" width="1536" height="832" />
     </state>
     <state x="-1641" y="215" width="998" height="708" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1625048552474" />
     <state x="-996" y="50" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1625015981275" />
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1621855956669" />
+    <state x="2143" y="125" width="914" height="707" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1626328224124" />
     <state x="-1114" y="434" key="VCS.ChangelistChooser" timestamp="1625053240815">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

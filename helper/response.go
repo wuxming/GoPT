@@ -35,7 +35,7 @@ func SuccessMess(message string,data interface{}) map[string]interface{} {
 }
 func ErrorMess(message string,data interface{}) map[string]interface{} {
 	return map[string]interface{}{
-		"status":http.StatusOK,
+		"status":http.StatusInternalServerError,
 		"message":message,
 		"data":data,
 	}

@@ -45,3 +45,11 @@ func Delete(_id primitive.ObjectID)map[string]interface{}{
 	}
 	 return helper.SuccessMess("删除成功",deleteResult)
 }
+func FindById(_id primitive.ObjectID) map[string]interface{} {
+	var  book models.Test
+	err := collection.FindOne(context.TODO(),bson.M{"_id":_id}).Decode(&book)
+	if err != nil {
+		return helper.ErrorMess("查找失败",nil)
+	}
+	return  helper.SuccessMess("查找成功",book)
+}

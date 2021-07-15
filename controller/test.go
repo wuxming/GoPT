@@ -5,9 +5,11 @@ import (
 	"gin1/service"
 	"github.com/gin-gonic/gin"
 	"go.mongodb.org/mongo-driver/bson/primitive"
+	"log"
 )
 
 func Find(c *gin.Context)  {
+	log.Println("find===================")
 	result := service.Find()
 	c.JSON(result["status"].(int),result)
 }
@@ -27,5 +29,10 @@ func Update(c *gin.Context)  {
 func Delete(c *gin.Context)  {
 	_id,_ :=primitive.ObjectIDFromHex(c.Query("_id"))//转换为objectid
 	result := service.Delete(_id)
+	c.JSON(result["status"].(int),result)
+}
+func FindById(c *gin.Context)  {
+	_id,_ :=primitive.ObjectIDFromHex(c.Query("_id"))
+	result := service.FindById(_id)
 	c.JSON(result["status"].(int),result)
 }
