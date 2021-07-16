@@ -10,10 +10,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55d759b4-2bb8-40bb-b175-99153d07aaf2" name="Default Changelist" comment="&quot;&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="55d759b4-2bb8-40bb-b175-99153d07aaf2" name="Default Changelist" comment="&quot;&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,8 +70,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build route1.go" />
       <item itemvalue="Go Build.go build gin1/routes" />
+      <item itemvalue="Go Build.go build route1.go" />
     </list>
     <recent_temporary>
       <list>
@@ -205,16 +202,16 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1114" y="434" key="VCS.ChangelistChooser/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1625053240815" />
-    <state x="508" y="244" key="Vcs.Push.Dialog.v2" timestamp="1626418176341">
+    <state x="508" y="244" key="Vcs.Push.Dialog.v2" timestamp="1626418951678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1405" y="245" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1625054272072" />
-    <state x="508" y="244" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1626418176341" />
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1626418755788">
+    <state x="508" y="244" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1626418951678" />
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1626419239211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1157" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1625054674279" />
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1626418755788" />
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1626419239211" />
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1625053089792">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

@@ -1,3 +1,3 @@
 ��# go
 
-goland
+golang
